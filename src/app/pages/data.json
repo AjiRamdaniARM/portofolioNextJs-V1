@@ -1,0 +1,16 @@
+{
+    "st&wk" : [
+        {
+            "id" : 1,
+            "logo" : "school.png"
+        },
+        {
+            "id" : 2,
+            "logo" : "suba.png"
+        },
+        {
+            "id" : 3,
+            "logo" : "logo.png"
+        }
+    ]
+}
