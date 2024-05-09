@@ -52,8 +52,8 @@ export default function Youtube() {
       </Modal>
      <div className="  w-full h-auto left-0 right-0">
      <div className="mx-auto"> 
-            <h1 className='lg:text-[60px] text-4xl text-center  lg:leading-[55px] tracking-tight font-bold py-3'>List content <span className='text-[##ff5858] bg-gradient-to-r from-[#ff5858] to-[#fc3131] bg-clip-text text-transparent'>Youtube</span>  for tutorial <span className='text-[##5eff58] bg-gradient-to-r from-[#05ff01] to-[#00ff11] bg-clip-text text-transparent'>Coding</span></h1>
-            <p className='text-center py-3'>don`t just watch it, guys, you have to like and subscribe too so that I am excited to upload the content.</p>
+            <h1 className='lg:text-[60px] text-4xl text-center text-white lg:leading-[55px] tracking-tight font-bold py-3'>List content <span className='text-[##ff5858] bg-gradient-to-r from-[#ff5858] to-[#fc3131] bg-clip-text text-transparent'>Youtube</span>  for tutorial <span className='text-[##5eff58] bg-gradient-to-r from-[#05ff01] to-[#00ff11] bg-clip-text text-transparent'>Coding</span></h1>
+            <p className='text-center py-3 text-[#A1A1AA] font-semibold'>don`t just watch it, guys, you have to like and subscribe too so that I am excited to upload the content.</p>
         </div>
         <div className="mx-auto block relative -bottom-5 left-0 right-0 text-center">
         <div className="grid grid-cols-1 md:grid-cols-3 md:gap-4 lg:gap-0 gap-4">

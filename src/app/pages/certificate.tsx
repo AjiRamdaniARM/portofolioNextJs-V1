@@ -24,15 +24,16 @@ export default function Certificate() {
                 </Link>
             </div>
         </div>
+        
         <div className="group flex flex-wrap items-start gap-4">
-            <div className="card-group ">
-                <a href="https://www.instagram.com/p/C0nY7zhPo_3/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" className="block max-w-sm p-4 w-[20em] h-[10em] bg-[#0D0D14] shadow-md border border-gray-200/10 rounded-lg  ">
+            <div className="group">
+                <a href="https://www.instagram.com/p/C0nY7zhPo_3/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" className="block  p-4 lg:w-[20em] w-auto lg:h-[10em] bg-[#0D0D14] shadow-md border border-gray-200/10 rounded-lg  ">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">Wbdeveloper competition</h5>
-                    <p className="font-normal text-gray-400 dark:text-gray-400">Web developer competition at SMK level throughout Indonesia, Session 1, 7th out of 400 people.</p>
+                    <p className="font-normal text-gray-400 dark:text-gray-400 ">Web developer competition at SMK level throughout Indonesia, Session 1, 7th out of 400 people.</p>
                 </a>
             </div>
-            <div className="card-group ">
-                <a href="#" className="block max-w-sm p-5 w-[20em] h-[10em] bg-[#0D0D14] shadow-md border border-gray-200/10 rounded-lg  ">
+            <div className="group">
+                <a href="#" className="block max-w-sm p-5 lg:w-[20em] w-auto lg:h-[10em] bg-[#0D0D14] shadow-md border border-gray-200/10 rounded-lg  ">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">Course Ux Design Google </h5>
                     <p className="font-normal text-gray-400 dark:text-gray-400">Get a scholarship for Ux Design course from Google for 4 months.</p>
                 </a>

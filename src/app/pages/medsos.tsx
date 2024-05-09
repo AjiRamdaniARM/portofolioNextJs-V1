@@ -48,7 +48,7 @@ export default function Medsos() {
                 <p className=' lg:w-[30em] lg:text-[20px] text-[#A1A1AA] font-semibold'>certifcate - certificate that has been held </p>
                 <div className="button py-5">
                     <Link href="https://linktr.ee/ajiramdani_ari" className=' '> 
-                        <div className=" py-2 bg-[#A977DC] hover:bg-[#9450d8] transition-background rounded-full px-5 w-48 flex items-start gap-2 hover:gap-3">
+                        <div className="text-white py-2 bg-[#A977DC] hover:bg-[#9450d8] transition-background rounded-full px-5 w-48 flex items-start gap-2 hover:gap-3">
                         All Media Sosial  
                             <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M5 12.5H19M19 12.5L13 18.5M19 12.5L13 6.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -59,7 +59,7 @@ export default function Medsos() {
             </div>
 
             <div className="group">
-                <div className="container overflow-y-auto space-x-4  w-auto h-60">
+                <div className="container ">
                     <div className="relative lg:px-10 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-3 ">
                         {medsos.map((md,index)=> (
                             <div key={index}>

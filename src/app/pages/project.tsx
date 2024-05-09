@@ -32,15 +32,15 @@ export default function Projects () {
     return (
         <div className="container mx-auto lg:px-10 py-10 ">
             <div className="text-center">
-                <h1 className="project text-5xl">Projects AriDev</h1>
+                <h1 className="project text-5xl text-white">Projects AriDev</h1>
                 <p className="py-1 px-10">Collection of projects that have been created</p>
-                <div className="grup-button py-5 flex justify-center gap-3">
+                <div className="grup-button py-5 flex justify-center  gap-3">
                     <button
                     style={{ backgroundColor: selectedButton === 1 ? 'rgba(0, 102, 255, 0.217)' : selectedButton === 2 ? 'rgba(255, 255, 255, 0.1)' : undefined  }}
-                    onClick={toggleContent1} className="bg-white/10 px-7 lg:px-10 py-3">Programmer</button>
+                    onClick={toggleContent1} className="bg-white/10 text-white px-7 lg:px-10 py-3 rounded-small ">Programmer</button>
                     <button
                      style={{ backgroundColor: selectedButton === 2 ? 'rgba(0, 102, 255, 0.217)' : selectedButton === 1 ? 'rgba(255, 255, 255, 0.1)' : undefined }}
-                    onClick={toggleContent2} className="bg-blue-500/20 px-7 lg:px-10 py-3">Graphic Design</button>
+                    onClick={toggleContent2} className="bg-blue-500/20 text-white rounded-small  px-2 lg:px-10 py-3">Graphic Design</button>
                 </div>
                 <svg className="w-full py-3" viewBox="0 0 1301 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <line y1="0.5" x2="640.028" y2="0.5" stroke="white" stroke-opacity="0.05"/>

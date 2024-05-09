@@ -8,7 +8,7 @@ export default function Rewards() {
     <section className='container lg:p-12'>
         <div className="grup flex flex-wrap gap-10">
             <div className="group w-62 py-4  lg:py-2">
-                <h1 className='lg:text-[60px] text-4xl text-start  lg:leading-[55px] tracking-tight font-bold py-3'>
+                <h1 className='lg:text-[60px] text-4xl text-start text-white  lg:leading-[55px] tracking-tight font-bold py-3'>
                     <span className='text-[#ecedee]'>list of awards that</span>  <br />
                     <span className='text-[##368DF1] bg-gradient-to-r from-[#368DF1] to-[#1c75dc] bg-clip-text text-transparent'>have been </span> received.
                 </h1>
@@ -17,7 +17,7 @@ export default function Rewards() {
                 </Link> </p>  
             </div>
             
-            <div className="code hover:scale-105 transition hover:shadow-2xl hover:border hover:border-blue-500 hover:to-[#0e3e75] hover:from-[#368DF1] hover:border-gradient-to-r   bg-[#0D0B0B] p-8  rounded-xl shadow-md">
+            <div className="code hover:scale-105 transition hover:shadow-2xl hover:border hover:border-blue-500 hover:to-[#0e3e75] hover:from-[#368DF1] hover:border-gradient-to-r   bg-[#0D0B0B] lg:p-8 p-5 rounded-xl shadow-md">
                 <div className="head relative bottom-5 flex gap-2 items-center h-10">
                     <div className="circle1 bg-[#F31260] w-3 h-3 rounded-full "></div>
                     <div className="circle2 bg-[#F5A524] w-3 h-3 rounded-full"></div>

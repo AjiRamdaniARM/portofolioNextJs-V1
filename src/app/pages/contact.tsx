@@ -5,12 +5,12 @@ export default function Contact() {
   return (
     <section className='container py-10 mx-auto left-0 right-0'>
         <div className="mx-auto"> 
-            <h1 className='lg:text-[60px] text-4xl text-center  lg:leading-[55px] tracking-tight font-bold py-3'>Contact us</h1>
-            <p className='text-center py-3'>need something or want to use the service? please to consult</p>
+            <h1 className='lg:text-[60px] text-4xl text-center text-white  lg:leading-[55px] tracking-tight font-bold py-3'>Contact us</h1>
+            <p className='text-center py-3 font-semibold text-[#A1A1AA] '>need something or want to use the service? please to consult</p>
         </div>
 
         <div className="block lg:p-10">
-            <div className="grid py-2 grid-cols-1 lg:grid-cols-3 gap-10">
+            <div className="grid py-2 grid-cols-1 lg:grid-cols-3 text-white gap-10">
 
                 <Link href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=hilmankeren0936@gmail.com">
                     <div className="card1 transition ease-in-out delay-150 hover:-translate-y-1  hover:scale-110 lg:p-10 p-5 bg-[#0B0B0C] rounded-large">

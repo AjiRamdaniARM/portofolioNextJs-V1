@@ -54,16 +54,16 @@ export default function Skill() {
                         <div className="con-text w-30 bg-[#000000] w-28 h-7 text-center rounded-lg text-white font-bold">
                           {item.Label}
                         </div>
-                        <div className="judul ComBold py-2 text-3xl">
+                        <div className="judul ComBold py-2 text-3xl text-white">
                         {item.Instansi}
                         </div>
-                        <div className="desk ">
+                        <div className="desk text-white ">
                         {item.Desk}
                         </div>
                       </div>
                       <div className="bottom px-5 py-5">
                         <Link href={item.Url}>
-                          <button className="bg-blue-500 duration-500 hover:scale-105 hover:shadow-md hover:bg-slate-500 rounded-xl w-full py-2 hover:transition">View More
+                          <button className="bg-blue-500 text-white duration-500 hover:scale-105 hover:shadow-md hover:bg-slate-500 rounded-xl w-full py-2 hover:transition">View More
                           </button>
                         </Link>
                       </div>

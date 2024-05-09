@@ -149,8 +149,8 @@ const Tools = () => {
     <section className='container py-20 bottom-7 relative lg:px-10'>
     <div className="  w-full h-auto left-0 right-0">
         <div className="mx-auto"> 
-            <h1 className='lg:text-[60px] text-4xl text-center  lg:leading-[55px] tracking-tight font-bold py-3'>Programming <span className='text-[##FF9B58] bg-gradient-to-r from-[#FF9B58] to-[#fc8231] bg-clip-text text-transparent'>Language</span> & Tools <span className='text-[##FF9B58] bg-gradient-to-r from-[#d901ff] to-[#a600ff] bg-clip-text text-transparent'>Sofware</span></h1>
-            <p className='text-center py-3'>Using NextUI in a profit-making product, as a freelancer, or for fun projects? Your contributions will help to make NextUI better.</p>
+            <h1 className='lg:text-[60px] text-4xl text-center text-white  lg:leading-[55px] tracking-tight font-bold py-3'>Programming <span className='text-[##FF9B58] bg-gradient-to-r from-[#FF9B58] to-[#fc8231] bg-clip-text text-transparent'>Language</span> & Tools <span className='text-[##FF9B58] bg-gradient-to-r from-[#d901ff] to-[#a600ff] bg-clip-text text-transparent'>Sofware</span></h1>
+            <p className='text-center text-[#A1A1AA] py-3 font-semibold'>Using NextUI in a profit-making product, as a freelancer, or for fun projects? Your contributions will help to make NextUI better.</p>
         </div>
         <div className="mx-auto block relative -bottom-5 left-0 right-0 text-center">
             <div className="grid grid-cols-1 md:grid-cols-4  gap-4">
@@ -160,7 +160,7 @@ const Tools = () => {
                         <div className="head w-full h-auto ">
                            <div className="py-1 px-2 flex justify-start items-center gap-5">
                             <img src={item.image} className='w-10' alt="html" />
-                            <h2 className='font-bold inter text-1xl'>{item.judul}</h2>
+                            <h2 className='font-bold inter text-1xl text-white'>{item.judul}</h2>
                            </div>
                         </div>
                         <div className="body  w-full h-auto px-2 ">
@@ -176,7 +176,7 @@ const Tools = () => {
                             <button
                                 key={i}
                                 onClick={() => handlePageChange(i + 1)}
-                                className={`mx-2 py-2 px-4 rounded transition ${
+                                className={`mx-2 py-2 px-4 rounded transition text-white ${
                                     currentPage === i + 1 ? 'bg-gray-900 text-white border border-[#fc8231] shadow-md scale-105' : 'bg-gray-900'
                                 }`}
                             >

@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="block">
           
             <div className='text-gray-600 font-semibold py-2'>&copy; 2024 AriDev Inc.</div>
-            <h1 className='font-bold inter'>Deployed on ARIDEV</h1>
+            <h1 className='font-bold inter text-white'>Deployed on ARIDEV</h1>
         </div>
     </section>
   );

@@ -121,9 +121,9 @@ export default function Hero() {
         )}
       </p>
           <div className="grup-button py-3 flex gap-5  items-center">
-            <Link href='https://wa.me/6289508742700?text=Halo,%20saya%20ingin%20konsultasi' className="bg-white/10 px-7 lg:px-10 py-3">Contact Us</Link>
+            <Link href='https://wa.me/6289508742700?text=Halo,%20saya%20ingin%20konsultasi' className="bg-white/10 text-white px-7 lg:px-10 text-center py-3">Contact Us</Link>
             <button key={size}  onClick={() => handleOpen(size)}>
-              <div className="flex gap-3 items-center hover:transform hover" typeof="button">Download CV 
+              <div className="flex gap-3 items-center hover:transform hover text-white" typeof="button">Download CV 
                 <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5 12.5H19M19 12.5L13 18.5M19 12.5L13 6.5" stroke="#0d42f0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>

@@ -42,7 +42,7 @@ return (
     </div>
   ))
 ) : (
-  <p className='px-10'>Data tidak tersedia</p>
+  <p className='px-10 text-white'>Data tidak tersedia</p>
 )}
 
 </div>
