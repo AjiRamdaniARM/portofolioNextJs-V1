@@ -13,7 +13,7 @@ useEffect(() => {
 
 const fetchData = async () => {
  try {
-   const response = await axios.get('http://localhost:4000/api/data');
+   const response = await axios.get('http://localhost:4000/api');
    setData(response.data);
  } catch (error) {
    console.error('Error fetching data:', error);
@@ -26,16 +26,16 @@ return (
   data.map((item, index) => (
     <div key={index}>
       <div className='transform transition duration-500 hover:scale-105 hover:shadow-2xl'>
-        <a href={`/data/${item.Link}`}>
-          <Image
+        <a href={`/data/${item.data}`}>
+          <img
             width={1000}
             height={1000}
             className='py-3 rounded-2xl'
-            src={`/data/${item.Link}`}
+            src={item.data}
             alt="Picture of the author"
           />
           <span className="absolute inset-0 flex items-center justify-center text-white opacity-0 rounded-lg  hover:opacity-100 transition duration-300 bg-black bg-opacity-50">
-            <p className="text-4xl font-bold">{item.judul}</p>
+            <p className="text-4xl font-bold">{item.name}</p>
           </span>
         </a>
       </div>
