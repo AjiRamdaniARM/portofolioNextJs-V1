@@ -59,7 +59,7 @@ export default function Hero() {
               <ModalHeader className="flex flex-col inter font-bold gap-1">Dapatkan CV </ModalHeader>
               <ModalBody>
                <div className="container flex">
-               <p><span className="text-cyan-400 font-bold">CV PDF</span> adalah singkatan dari <span className="text-cyan-400 font-bold">Curriculum Vitae dalam format PDF</span>. CV adalah ringkasan riwayat hidup seseorang, yang berisi pendidikan, pengalaman kerja, keterampilan, dan prestasi profesional. <span className="text-cyan-400 font-bold">CV PDF</span> sering digunakan untuk pencarian pekerjaan dan aplikasi pendidikan karena tampilannya yang konsisten di berbagai platform. Anda dapat membuat <span className="text-cyan-400 font-bold">CV PDF</span> menggunakan aplikasi pengolah kata seperti Microsoft Word atau Google Docs, lalu menyimpannya dalam format PDF.</p>
+               <p className="text-white"><span className="text-cyan-400 font-bold">CV PDF</span> adalah singkatan dari <span className="text-cyan-400 font-bold">Curriculum Vitae dalam format PDF</span>. CV adalah ringkasan riwayat hidup seseorang, yang berisi pendidikan, pengalaman kerja, keterampilan, dan prestasi profesional. <span className="text-cyan-400 font-bold">CV PDF</span> sering digunakan untuk pencarian pekerjaan dan aplikasi pendidikan karena tampilannya yang konsisten di berbagai platform. Anda dapat membuat <span className="text-cyan-400 font-bold">CV PDF</span> menggunakan aplikasi pengolah kata seperti Microsoft Word atau Google Docs, lalu menyimpannya dalam format PDF.</p>
                </div>
               </ModalBody>
               <ModalFooter>
@@ -108,8 +108,8 @@ export default function Hero() {
       </div>
     <div className=" flex flex-wrap-reverse justify-center items-center">
       <div className="container-text">
-          <h1 className="text-j lg:text-6xl text-[30px] py-5 w-full lg:w-[11em]">Hi,I am <span className="text-[#1e6aec]">Aji Ramdani</span> Programmer And Graphic Designer</h1>
-          <p className="lg:text-[15px] lg:w-[40em]">
+          <h1 className="text-j lg:text-6xl text-[30px] py-5 w-full lg:w-[11em] text-white">Hi,I am <span className="text-[#1e6aec]">Aji Ramdani</span> Programmer And Graphic Designer</h1>
+          <p className="lg:text-[15px] lg:w-[40em] text-white">
         Selamat datang di <span className="text-blue-500 font-semibold">portofolio Aji Ramdani</span>, tempat di mana teknologi dan kreativitas bersatu. Saya adalah programmer dan desainer grafis yang menghadirkan solusi inovatif dan desain yang memikat.
         {showFullText ? (
           <>
