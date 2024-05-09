@@ -70,7 +70,7 @@ export default function Medsos() {
                                             <p className='text-gray-500 relative bottom-2'>{md.user}</p>
                                         </div>
                                         <div className="kiri">
-                                            <Link href={md.link} className='bg-[#962ff7] px-4 rounded-medium'>Situs</Link>
+                                            <Link href={md.link} className='bg-[#962ff7] text-white px-4 rounded-medium'>Situs</Link>
                                         </div>
                                     </div>     
                                 </div>

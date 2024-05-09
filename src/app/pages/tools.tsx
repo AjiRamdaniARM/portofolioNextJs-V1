@@ -35,7 +35,7 @@ const Tools = () => {
             'desk' : "skills that I am good at and applications - applications that I often use in making work or projects"
         },
         {
-            'image' : "https://www.pngrepo.com/png/374146/512/typescript-official.png",
+            'image' : "https://cdn.icon-icons.com/icons2/2415/PNG/512/typescript_plain_logo_icon_146316.png",
             'judul' : "TypeScript based",
             'desk' : "skills that I am good at and applications - applications that I often use in making work or projects"
         },
@@ -150,7 +150,7 @@ const Tools = () => {
     <div className="  w-full h-auto left-0 right-0">
         <div className="mx-auto"> 
             <h1 className='lg:text-[60px] text-4xl text-center text-white  lg:leading-[55px] tracking-tight font-bold py-3'>Programming <span className='text-[##FF9B58] bg-gradient-to-r from-[#FF9B58] to-[#fc8231] bg-clip-text text-transparent'>Language</span> & Tools <span className='text-[##FF9B58] bg-gradient-to-r from-[#d901ff] to-[#a600ff] bg-clip-text text-transparent'>Sofware</span></h1>
-            <p className='text-center text-[#A1A1AA] py-3 font-semibold'>Using NextUI in a profit-making product, as a freelancer, or for fun projects? Your contributions will help to make NextUI better.</p>
+            <p className='text-center text-[#A1A1AA] py-3 font-semibold'>The technology that I use while making a work or project with the basic knowledge that I have.</p>
         </div>
         <div className="mx-auto block relative -bottom-5 left-0 right-0 text-center">
             <div className="grid grid-cols-1 md:grid-cols-4  gap-4">
