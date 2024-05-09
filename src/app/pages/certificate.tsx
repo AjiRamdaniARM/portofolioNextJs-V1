@@ -15,7 +15,7 @@ export default function Certificate() {
             <p className=' lg:w-[30em] lg:text-[20px] text-[#A1A1AA] font-semibold'>certifcate - certificate that has been held </p>
             <div className="button py-5">
                 <Link href="https://drive.google.com/drive/folders/1KxH3hZhv2jHnI7w8S0EcDJ9ohW4gP5iv?usp=drive_link" className=' '> 
-                    <div className=" py-2 bg-[#d777dc] hover:bg-[#ca50d8] transition-background rounded-full px-5 w-48 flex items-start gap-2 hover:gap-3">
+                    <div className=" py-2 bg-[#d777dc] hover:bg-[#ca50d8] transition-background rounded-full px-5 w-48 flex items-start gap-2 hover:gap-3 text-white">
                     Cek Certification  
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5 12.5H19M19 12.5L13 18.5M19 12.5L13 6.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>

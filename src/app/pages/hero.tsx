@@ -56,7 +56,7 @@ export default function Hero() {
         <ModalContent className="bg-black border-2 border-l-cyan-400 border-r-blue-800">
           {(onclose) => (
             <>
-              <ModalHeader className="flex flex-col inter font-bold gap-1">Dapatkan CV </ModalHeader>
+              <ModalHeader className="flex flex-col inter font-bold gap-1 text-white">Dapatkan CV </ModalHeader>
               <ModalBody>
                <div className="container flex">
                <p className="text-white"><span className="text-cyan-400 font-bold">CV PDF</span> adalah singkatan dari <span className="text-cyan-400 font-bold">Curriculum Vitae dalam format PDF</span>. CV adalah ringkasan riwayat hidup seseorang, yang berisi pendidikan, pengalaman kerja, keterampilan, dan prestasi profesional. <span className="text-cyan-400 font-bold">CV PDF</span> sering digunakan untuk pencarian pekerjaan dan aplikasi pendidikan karena tampilannya yang konsisten di berbagai platform. Anda dapat membuat <span className="text-cyan-400 font-bold">CV PDF</span> menggunakan aplikasi pengolah kata seperti Microsoft Word atau Google Docs, lalu menyimpannya dalam format PDF.</p>

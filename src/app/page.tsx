@@ -13,7 +13,7 @@ import Footer from "./pages/footer"
 
 export default function Home() {
   return (
-    <main className="flex flex-col mx-auto  flex-wrap items-center justify-center  py-2  px-7 lg:px-10  ">
+    <main className="flex flex-col mx-auto  flex-wrap items-center justify-center  py-2  px-5 lg:px-10  ">
       <Hero/>
       <BarLogo/>
       <Projects />
